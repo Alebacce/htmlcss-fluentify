@@ -1,5 +1,51 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+    height: 550px;
+    background-color: #0c325a;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: 110%;
+}
+
+/* nav */
+.logo {
+    width: 10%;
+}
+.menu-container {
+    width: 80%;
+    margin: auto;
+    background-color: chocolate;
+}
+
+.menu-left {
+    width: 90%;
+}
+.menu-left-ul {
+    list-style-type: none;
+}
+
+.menu-left-ul li {
+    display: inline-block;
+}
+
+.menu-left-ul .menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
 }
