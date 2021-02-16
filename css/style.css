@@ -29,6 +29,14 @@ body {
     background-color: #7cbb02;
     border-radius: 5px;
 }
+
+.section-container {
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
 /* HEADER */
 .header {
     height: 550px;
@@ -51,7 +59,7 @@ body {
 }
 .menu-container {
     width: 100%;    
-    font-size: 12px;
+    font-size: 13px;
     padding: 20px 0;
 }
 
@@ -61,7 +69,7 @@ body {
 
 .menu-ul li {
     display: inline-block;
-    line-height: 54px;
+    line-height: 60px;
 } 
 
 .menu-ul .menu-link {
@@ -72,12 +80,12 @@ body {
 }
 
 .menu-left {
-    width: 47%;
+    width: 46%;
     margin-left: 40px;
 }
 
 .menu-right {
-    width: 39%;
+    width: 40%;
     text-align: right;
 }
 
@@ -138,12 +146,9 @@ body {
 .main-section-container {
     width: 100%;
 }
-.section-container {
-    margin: 0 auto;
-    padding: 40px 0;
+
+.first-section {
     width: 90%;
-    height: 50%;
-    text-align: center;
 }
 
 .training-plan {
@@ -187,5 +192,35 @@ body {
 .section-divisor {
     width: 97%;
     margin: 0 auto;
+}
+
+/* second section */
+.second-section {
+    width: 80%;
+}
+
+.half-width {
+    width: 44%;
+}
+
+.second-section-img {
+    margin-right: 3%;
+}
+
+.english-beginning-text {
+    text-align: left;
+    margin-left: 3%;
+}
+.english-beginning-text h2 {
+    font-size: 30px;
+}
+
+.english-beginning-text p {
+    padding: 15px 0;
+    font-size: 18px;
+    color: #696969;
+}
+.english-beginning-text a {
+    color: #6591c3;
 }
 /* END MAIN */
