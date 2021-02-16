@@ -7,6 +7,7 @@
 
 img {
     width: 100%;
+    /* display: block; */
 }
 
 body {
@@ -18,12 +19,6 @@ body {
     content: "";
     display: table;
     clear: both;
-}
-
-.login {
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 5px;
 }
 
 .button {
@@ -42,6 +37,11 @@ body {
     background-position-y: 110%;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* nav */
 .col {
     float: left;
@@ -50,9 +50,8 @@ body {
     width: 10%;
 }
 .menu-container {
-    width: 1024px;
-    margin: 0 auto;
-    font-size: 11px;
+    width: 100%;    
+    font-size: 12px;
     padding: 20px 0;
 }
 
@@ -66,7 +65,7 @@ body {
 
 .menu-ul li {
     display: inline-block;
-    line-height: 46px;
+    line-height: 54px;
 }
 
 .menu-ul .menu-link {
@@ -75,7 +74,38 @@ body {
     color: white;
     margin-left: 20px;  
 }
+
 .menu-right {
     width: 39%;
     text-align: right;
 }
+
+.login {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* end nav */
+
+/* teaser */
+.teaser {
+    width: 51%;
+    color: white;
+    font-size: 25px;
+    margin-top: 125px;
+}
+
+.teaser-button {
+    display: block;
+    width: fit-content;
+    margin-top: 30px;
+    padding: 20px 30px;
+
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* end teaser */
+/* END HEADER */
