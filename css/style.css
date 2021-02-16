@@ -20,9 +20,15 @@ body {
     clear: both;
 }
 
-.button {
-    padding: 5px 10px;
+.login {
+    padding: 10px 20px;
     border: 1px solid white;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: yellowgreen;
     border-radius: 5px;
 }
 /* HEADER */
@@ -51,7 +57,7 @@ body {
 }
 
 .menu-left {
-    width: 50%;
+    width: 47%;
     margin-left: 40px;
 }
 .menu-ul {
@@ -70,6 +76,6 @@ body {
     margin-left: 20px;  
 }
 .menu-right {
-    width: 36%;
+    width: 39%;
     text-align: right;
 }
