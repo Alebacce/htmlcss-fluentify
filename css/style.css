@@ -13,6 +13,18 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+/* COMMON */
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
 /* HEADER */
 .header {
     height: 550px;
@@ -25,27 +37,39 @@ body {
 }
 
 /* nav */
+.col {
+    float: left;
+}
 .logo {
     width: 10%;
 }
 .menu-container {
-    width: 80%;
-    margin: auto;
-    background-color: chocolate;
+    width: 1024px;
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 20px 0;
 }
 
 .menu-left {
-    width: 90%;
+    width: 50%;
+    margin-left: 40px;
 }
-.menu-left-ul {
+.menu-ul {
     list-style-type: none;
 }
 
-.menu-left-ul li {
+.menu-ul li {
     display: inline-block;
+    line-height: 46px;
 }
 
-.menu-left-ul .menu-link {
+.menu-ul .menu-link {
     text-decoration: none;
     text-transform: uppercase;
+    color: white;
+    margin-left: 20px;  
+}
+.menu-right {
+    width: 36%;
+    text-align: right;
 }
