@@ -20,14 +20,19 @@ body {
     clear: both;
 }
 
-.col {
-    float: left;
+.col-left {
+    float: left
+}
+
+.col-right {
+    float: right;
 }
 
 .button {
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #7cbb02;
     border-radius: 5px;
+    border: 1px solid #7cbb02;
 }
 
 .section-container {
@@ -224,3 +229,50 @@ body {
     color: #6591c3;
 }
 /* END MAIN */
+
+/* FOOTER */
+.footer-container {
+    width: 100%;
+}
+.footer-items {
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-text h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.selection-menu {
+    padding: 40px 0;
+    line-height: 2.5;
+}
+
+.selection-menu label {
+    color: #696969;
+}
+
+.selection-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+    padding: 20px 5px;
+}
+
+.options {
+    margin: 0 10px;
+    padding-right: 25px;
+    background-color: unset;
+    color: #696969;
+    border: unset;
+    border-bottom: 1px solid #696969;
+}
+/* END FOOTER */
+
+.help-fix-button {
+    position: fixed;
+    bottom: 0;
+    right: 130px;
+    z-index: 2;
+}
